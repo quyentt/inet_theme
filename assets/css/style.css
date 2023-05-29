@@ -136,7 +136,7 @@ label {
 .breadcrumb {
   background-color: #F1F1F1;
   padding: 10px 60px;
-  border-bottom: 1px solid #dedede;
+  /*border-bottom: 1px solid #dedede;*/
 }
 .breadcrumb, .breadcrumb a{
   text-decoration: none;

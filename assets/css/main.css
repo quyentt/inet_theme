@@ -2243,8 +2243,16 @@ a.product-vendor:hover {
 
 .bread-crumb, .bread-crumb .breadcrumb {
     background: #F6F6F6;
+    min-height: 40px;
+    line-height: 34px;
 }
-
+.bread-crumb .breadcrumb {
+    list-style: none;
+    /*display: flex;*/
+}
+.bread-crumb .breadcrumb li{
+  float: left;color: #888;
+}
 .bread-crumb .breadcrumb, .bread-crumb .breadcrumb .breadcrumb {
     padding: .25rem 1rem;
 }
@@ -2303,11 +2311,11 @@ section .container.card {
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin: 0 3px;
+    margin: 0 15px;
     border-radius: 50% !important;
     width: 36px;
     height: 36px;
-    font-size: .875rem;
+    font-size: 18px;
     color: #8898aa;
 }
 
@@ -3061,4 +3069,10 @@ body.menu-is-hover .subheader {
 
 .logo-wrapper img {
     width: auto;
+}
+.btn-register{
+    background: var(--subheader-background);
+}
+.page-404{
+    padding: 70px 0px;
 }

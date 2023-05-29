@@ -1,0 +1,50 @@
+.form-control {
+    font-size: 1rem;
+}
+
+.single-contact {
+    display: flex;
+    align-items: baseline;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.single-contact .fa, .single-contact .fas {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.iFrameMap iframe {
+    width: 100% !important;
+    height: 457px;
+    display: block;
+}
+
+.content{
+    line-height: 26px;
+    font-size: 16px;
+}
+#contact_map.map {
+    margin-top: 30px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 30px;
+}
+.left-contact .title-head {
+    font-size: 20px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+}
+.btn-lienhe{
+    background: var(--subheader-background);
+    color: #fff;
+    border: 1px solid var(--subheader-background);
+}
+textarea.form-control {
+    height: auto;
+}
+.form-group {
+   border: 0px;
+}

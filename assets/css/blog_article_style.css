@@ -1,0 +1,231 @@
+.title-head {
+    font-weight: 700 !important;
+  font-size: 18px;
+}
+
+.aside-filter ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+.aside-item {
+    padding-top: 15px;
+}
+
+aside.aside-item + .aside-item {
+    margin-top: 15px;
+}
+
+.aside-title a:hover {
+    color: var(--primary-color);
+}
+
+.aside-content {
+    position: relative;
+    clear: left;
+    font-size: 14px;
+    padding: 0;
+}
+
+.aside-content:last-child {
+}
+
+.aside-content .nav-item {
+    position: relative;
+    position: relative;
+    line-height: 40px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 3px;
+}
+.aside-content ul{
+    border-bottom: 1px solid #e1e1e1;
+}
+.aside-content .nav-item > a {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.3;
+    padding: 5px 30px 2px 0px;
+}
+.aside-content .nav-item > a i{
+    padding-right: 10px;
+}
+.aside-content .nav-item > a:hover {
+    color: var(--primary-color);
+}
+
+.aside-content .dropdown-menu a {
+    font-weight: 400;
+}
+
+.aside-content .fa {
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    z-index: 1;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.aside-content .active > .dropdown-menu {
+    display: block;
+}
+
+.aside-content .dropdown-menu {
+    width: 100%;
+    border: 0;
+    padding: 0px;
+    padding-left: 15px;
+    box-shadow: none;
+    margin-top: 0px;
+    position: static;
+    background: none;
+}
+
+.aside-content:hover > a {
+    color: #333;
+    background-color: transparent;
+}
+
+.aside-content ul > li:before {
+    top: 17px;
+    left: 15px;
+}
+
+.blogwp h3, .blogwp h3 a.link {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-top: 0px;
+}
+.blogwp  .text-muted {
+    font-size: 15px;
+}
+@media (max-width: 991px) {
+    .sidebar {
+        order: 1;
+        border-top: 10px solid #f4f4f4;
+    }
+}
+
+.sidebar {
+    border-left: 1px solid #eee;
+    padding-bottom: 1.25rem;
+    padding-left: 15px;
+}
+
+.content-blog .blogwp + .blogwp {
+    border-top: 1px solid #eee !important;
+}
+
+.content-blog .blogwp .card-body {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.content-blog .blogwp .card-body p {
+    font-weight: 300;
+}
+
+a.button_custome_35.link {
+    color: var(--primary-color);
+}
+
+.blogwp .media .media-body {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.blogwp .button_custome_35.link {
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .sidebar .blogwp.media .image-blog {
+        width: 75px;
+    }
+}
+
+.pagination {
+    justify-content: center;
+    float: none !important;
+}
+
+.article-content {
+    min-height: 150px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    word-break: break-word;
+}
+
+.article-content img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+figure.article-comment-user-image {
+    width: 50px;
+}
+
+.article-comment + .media {
+    border-top: 1px solid #eee;
+}
+
+.article-content a {
+    color: #0072ff;
+}
+.aside-content ul,.aside-content li{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.content-blog .product-col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blogpage .content-blog .title_page {
+    border-bottom: 1px solid #e1e1e1;
+}
+.blog-list.blog-image-list .link{
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 16px;
+}
+.content-blog .row {
+    margin-left: -15px;
+}
+.blogwp  .image-blog .img-fluid  {
+    width: 100%;
+}
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+.badge {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 2rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.font-weight-normal {
+    font-weight: 400!important;
+}
